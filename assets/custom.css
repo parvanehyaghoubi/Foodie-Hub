@@ -26,3 +26,26 @@ body {
     padding: 15px;
     }
 }
+
+.restaurant-card:hover {
+    transform: scale(1.03);
+    transition: all 0.3s ease;
+}
+
+.custom-img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.zoom-wrapper {
+    overflow: hidden;
+}
+
+.zoom-wrapper img {
+    transition: transform 0.5s ease;
+}
+
+.zoom-wrapper img:hover {
+    transform: scale(1.1); 
+}
