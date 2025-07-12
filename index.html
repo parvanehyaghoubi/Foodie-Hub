@@ -315,5 +315,79 @@
         </div>
     </section>
 
+    <!-- Order Form Section -->
+    <section id="order" class="py-5" style="background-color: rgb(250, 237, 200);">
+        <div class="container">
+            <h2 class="text-center mb-4">Place Your Order</h2>
+    
+            <form action="index.html">
+                <div class="row g-4">
+                    <!-- Customer Name -->
+                    <div class="col-12 col-md-6">
+                        <label for="customerName" class="form-label">Customer Name</label>
+                        <input type="text" class="form-control" id="customerName" placeholder="Enter your name" required>
+                    </div>
+    
+                    <!-- Phone Number -->
+                    <div class="col-12 col-md-6">
+                        <label for="phoneNumber" class="form-label">Phone Number</label>
+                        <input type="tel" class="form-control" id="phoneNumber" placeholder="e.g. +1234567890" required>
+                    </div>
+    
+                    <!-- Select Restaurant -->
+                    <div class="col-12 col-md-6">
+                        <label for="restaurantSelect" class="form-label">Select Restaurant</label>
+                        <select class="form-select" id="restaurantSelect" required>
+                            <option value="">Choose...</option>
+                            <option value="Pizza Palace">Pizza Palace</option>
+                            <option value="Sushi House">Sushi House</option>
+                            <option value="High-end Japanese Restaurant">High-end Japanese Restaurant</option>
+                            <option value="Vegan Delight">Vegan Delight</option>
+                            <option value="ALI BARBOUR'S CAVE RESTAURANT">ALI BARBOUR'S CAVE RESTAURANT</option>
+                            <option value="Ithaa Undersea Restaurant">Ithaa Undersea Restaurant</option>
+                        </select>
+                    </div>
+    
+                    <!-- Menu Items (Checkboxes + Qty) -->
+                    <div class="col-12 col-md-6">
+                        <label class="form-label">Menu Items</label>
+    
+                        <div class="d-flex align-items-center mb-2">
+                            <input class="form-check-input me-2" type="checkbox" id="item1">
+                            <label class="form-check-label me-auto" for="item1">Margherita Pizza</label>
+                            <input type="number" class="form-control form-control-sm ms-3" style="width: 80px;" placeholder="Qty" min="1">
+                        </div>
+    
+                        <div class="d-flex align-items-center mb-2">
+                            <input class="form-check-input me-2" type="checkbox" id="item2">
+                            <label class="form-check-label me-auto" for="item2">Farfalle Pasta</label>
+                            <input type="number" class="form-control form-control-sm ms-3" style="width: 80px;" placeholder="Qty" min="1">
+                        </div>
+    
+                        <div class="d-flex align-items-center mb-2">
+                            <input class="form-check-input me-2" type="checkbox" id="item3">
+                            <label class="form-check-label me-auto" for="item3">Fast Food Roll</label>
+                            <input type="number" class="form-control form-control-sm ms-3" style="width: 80px;" placeholder="Qty" min="1">
+                        </div>
+
+                        <div class="d-flex align-items-center mb-2">
+                            <input class="form-check-input me-2" type="checkbox" id="item3">
+                            <label class="form-check-label me-auto" for="item3">Okonomiyaki</label>
+                            <input type="number" class="form-control form-control-sm ms-3" style="width: 80px;" placeholder="Qty" min="1">
+                        </div>
+    
+                    </div>
+
+                </div>
+        </div>
+    
+        <!-- Submit Button -->
+        <div class="text-center mt-4">
+            <button type="submit" class="btn px-4 bg-dark text-light">Submit Order</button>
+        </div>
+        </form>
+    </section>
+
+
 </body>
 </html>
