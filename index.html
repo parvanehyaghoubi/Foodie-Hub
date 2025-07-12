@@ -165,5 +165,155 @@
         </div>
     </section>
 
+    <!-- Restaurant Menu Section -->
+    <section id="menu" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Restaurant Menu</h2>
+
+            <!-- Carousel for Mobile -->
+            <div id="menuCarousel" class="carousel slide d-md-none" data-bs-ride="carousel" data-bs-interval="3000">
+                <div class="carousel-inner">
+
+                    <!-- Slide 1 -->
+                    <div class="carousel-item active">
+                        <div class="card h-100 menu-card mx-3 shadow-sm ">
+                            <img src="images/f1.jpg" class="card-img-top custom-img" alt="Margherita Pizza">
+                            <div class="card-body d-flex flex-column">
+                                <h5 class="card-title">Margherita Pizza</h5>
+                                <p class="card-text mb-3">It is roundish in shape with a raised edge (the cornicione)...</p>
+                                <div class="mt-auto">
+                                    <p class="fw-bold mb-3">$ 10.99</p>
+                                    <a href="#order" class="btn btn-success btn-sm w-100">Available (Order)</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Slide 2 -->
+                    <div class="carousel-item">
+                        <div class="card h-100 menu-card mx-3 shadow-sm">
+                            <img src="images/f2.jpg" class="card-img-top custom-img" alt="Farfalle Pasta">
+                            <div class="card-body d-flex flex-column">
+                                <h5 class="card-title">Farfalle Pasta</h5>
+                                <p class="card-text mb-3">Farfalle, also known as bow tie pasta, is a distinctive shape...</p>
+                                <div class="mt-auto">
+                                    <p class="fw-bold mb-3">$ 12.49</p>
+                                    <a href="#restaurants" class="btn btn-danger btn-sm w-100">Unavailable</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Slide 3 -->
+                    <div class="carousel-item">
+                        <div class="card h-100 menu-card mx-3 shadow-sm">
+                            <img src="images/f3.jpg" class="card-img-top custom-img" alt="Restaurant 2">
+                            <div class="card-body d-flex flex-column">
+                                <h5 class="card-title">Fast Food Roll</h5>
+                                <p class="card-text mb-3">Plate with spring rolls with vegetables, Asian food.</p>
+                                <div class="mt-auto">
+                                    <p class="fw-bold mb-3">$ 9.99</p>
+                                    <a href="#order" class="btn btn-dark btn-sm bg-success mt-auto w-100">Available (Order)</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!-- Slide 4 -->
+                    <div class="carousel-item">
+                        <div class="card h-100 menu-card mx-3 shadow-sm">
+                            <img src="images/f4.jpg" class="card-img-top custom-img" alt="Restaurant 2">
+                            <div class="card-body d-flex flex-column">
+                                <h5 class="card-title">Okonomiyaki</h5>
+                                <p class="card-text mb-3">Served with garnish on plate, set on wooden table with chop sticks in background.</p>
+                                <div class="mt-auto">
+                                    <p class="fw-bold mb-3">$ 20.75</p>
+                                    <a href="#order" class="btn btn-dark btn-sm bg-success mt-auto w-100">Available (Order)</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Controls for mobile carousel -->
+                <button class="carousel-control-prev d-md-none" type="button" data-bs-target="#menuCarousel" data-bs-slide="prev">
+                <i class="fa-solid fa-chevron-left fs-2" style="color: rgb(199, 159, 26);"></i>
+                </button>
+
+                <button class="carousel-control-next d-md-none" type="button" data-bs-target="#menuCarousel" data-bs-slide="next">
+                <i class="fa-solid fa-chevron-right fs-2" style="color: rgb(199, 159, 26);"></i>
+                </button>
+
+            </div>
+
+            <!-- Grid for Desktop -->
+            <div class="row g-4 d-none d-md-flex">
+
+                <!-- Menu Item 1 -->
+                <div class="col-md-6 col-lg-3">
+                    <div class="card h-100 shadow-sm">
+                        <img src="images/f1.jpg" class="card-img-top custom-img" alt="Restaurant 1">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">Margherita Pizza</h5>
+                            <p class="card-text mb-3">It is roundish in shape with a raised edge (the cornicione) and seasoned with hand-crushed peeled tomatoes.</p>
+                            <div class="mt-auto">
+                                <p class="fw-bold mb-3">$ 10.99</p>
+                                <a href="#order" class="btn btn-dark btn-sm bg-success mt-auto w-100">Available (Order)</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Menu Item 2 -->
+                <div class="col-md-6 col-lg-3">
+                    <div class="card h-100 shadow-sm">
+                        <img src="images/f2.jpg" class="card-img-top custom-img" alt="Restaurant 2">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">Farfalle Pasta</h5>
+                            <p class="card-text mb-3">Farfalle, also known as bow tie or butterfly pasta, is a type of pasta with a distinctive shape.</p>
+                            <div class="mt-auto">
+                                <p class="fw-bold mb-3">$ 12.49</p>
+                                <a href="#restaurants" class="btn btn-dark btn-sm bg-danger mt-auto w-100">Unavailable</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Menu Item 3 -->
+                <div class="col-md-6 col-lg-3">
+                    <div class="card h-100 shadow-sm">
+                        <img src="images/f3.jpg" class="card-img-top custom-img" alt="Restaurant 2">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">Fast Food Roll</h5>
+                            <p class="card-text mb-3">Plate with spring rolls with vegetables, Asian food.</p>
+                            <div class="mt-auto">
+                                <p class="fw-bold mb-3">$ 9.99</p>
+                                <a href="#order" class="btn btn-dark btn-sm bg-success mt-auto w-100">Available (Order)</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Menu Item 4 -->
+                <div class="col-md-6 col-lg-3">
+                    <div class="card h-100 shadow-sm">
+                        <img src="images/f4.jpg" class="card-img-top custom-img" alt="Restaurant 2">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">Okonomiyaki</h5>
+                            <p class="card-text mb-3">Okonomiyaki dish served with garnish on plate, set on wooden table with chop sticks in background.</p>
+                            <div class="mt-auto">
+                                <p class="fw-bold mb-3">$ 20.75</p>
+                                <a href="#order" class="btn btn-dark btn-sm bg-success mt-auto w-100">Available (Order)</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
 </body>
 </html>
