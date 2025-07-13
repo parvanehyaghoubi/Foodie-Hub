@@ -39,20 +39,20 @@ cd Foodie-Hub
     <tr align="center">
     <td align="center">
     <h3>Desktop View</h3>
-    <a href="https://github.com/Parvaneh-Yaghoubi/Foodie-Hub/blob/main/assets/screenshots/desktop.png">
-    <img src="https://raw.githubusercontent.com/Parvaneh-Yaghoubi/Foodie-Hub/main/assets/screenshots/desktop.png" height=200px>
+    <a href="https://github.com/parvanehyaghoubi/Foodie-Hub/blob/main/assets/screenshots/desktop.png">
+    <img src="https://raw.githubusercontent.com/parvanehyaghoubi/Foodie-Hub/main/assets/screenshots/desktop.png" height=200px>
     </a>
 </td>
 <td  align="center">
     <h3>Mobile View</h3>
-    <a href="https://github.com/Parvaneh-Yaghoubi/Foodie-Hub/blob/main/assets/screenshots/mobile.png">
-    <img src="https://raw.githubusercontent.com/Parvaneh-Yaghoubi/Foodie-Hub/main/assets/screenshots/mobile.png" height=200px>
+    <a href="https://github.com/parvanehyaghoubi/Foodie-Hub/blob/main/assets/screenshots/mobile.png">
+    <img src="https://raw.githubusercontent.com/parvanehyaghoubi/Foodie-Hub/main/assets/screenshots/mobile.png" height=200px>
     </a>
     </td>
       <td  align="center">
     <h3>Tablet View</h3>
-    <a href="https://github.com/Parvaneh-Yaghoubi/Foodie-Hub/blob/main/assets/screenshots/tablet.png">
-    <img src="https://raw.githubusercontent.com/Parvaneh-Yaghoubi/Foodie-Hub/main/assets/screenshots/tablet.png" height=200px>
+    <a href="https://github.com/parvanehyaghoubi/Foodie-Hub/blob/main/assets/screenshots/tablet.png">
+    <img src="https://raw.githubusercontent.com/parvanehyaghoubi/Foodie-Hub/main/assets/screenshots/tablet.png" height=200px>
     </a>
     </td>
     <tr>
@@ -62,7 +62,7 @@ cd Foodie-Hub
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](https://github.com/Parvaneh-Yaghoubi/Foodie-Hub/blob/main/LICENSE) file for details.
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/parvanehyaghoubi/Foodie-Hub/blob/main/LICENSE) file for details.
 
 
 ## Contact
