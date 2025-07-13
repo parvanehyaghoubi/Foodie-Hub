@@ -39,20 +39,20 @@ cd Foodie-Hub
     <tr align="center">
     <td align="center">
     <h3>Desktop View</h3>
-    <a href="https://github.com/parvanehyaghoubi/Foodie-Hub/blob/main/assets/images/screenshots/desktop.png">
-    <img src="https://raw.githubusercontent.com/parvanehyaghoubi/Foodie-Hub/main/assets/images/screenshots/desktop.png" height=200px>
+    <a href="https://github.com/parvanehyaghoubi/Foodie-Hub/blob/main/assets/screenshots/desktop.png">
+    <img src="https://raw.githubusercontent.com/parvanehyaghoubi/Foodie-Hub/main/assets/screenshots/desktop.png" height=200px>
     </a>
 </td>
 <td  align="center">
     <h3>Mobile View</h3>
-    <a href="https://github.com/parvanehyaghoubi/Foodie-Hub/blob/main/assets/images/screenshots/mobile.png">
-    <img src="https://raw.githubusercontent.com/parvanehyaghoubi/Foodie-Hub/main/assets/images/screenshots/mobile.png" height=200px>
+    <a href="https://github.com/parvanehyaghoubi/Foodie-Hub/blob/main/assets/screenshots/mobile.png">
+    <img src="https://raw.githubusercontent.com/parvanehyaghoubi/Foodie-Hub/main/assets/screenshots/mobile.png" height=200px>
     </a>
     </td>
       <td  align="center">
     <h3>Tablet View</h3>
-    <a href="https://github.com/parvanehyaghoubi/Foodie-Hub/blob/main/assets/images/screenshots/tablet.png">
-    <img src="https://raw.githubusercontent.com/parvanehyaghoubi/Foodie-Hub/main/assets/images/screenshots/tablet.png" height=200px>
+    <a href="https://github.com/parvanehyaghoubi/Foodie-Hub/blob/main/assets/screenshots/tablet.png">
+    <img src="https://raw.githubusercontent.com/parvanehyaghoubi/Foodie-Hub/main/assets/screenshots/tablet.png" height=200px>
     </a>
     </td>
     <tr>
